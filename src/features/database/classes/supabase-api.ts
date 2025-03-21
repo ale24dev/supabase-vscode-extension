@@ -15,9 +15,9 @@ const Endpoint = {
   TABLES: `${PG_META_API}/tables`,
   VIEWS: `${PG_META_API}/views`,
   MIGRATIONS: `${PG_META_API}/query?key=migrations`,
-  DB_FUNCTIONS: `${PG_META_API}//query?key=database-functions`,
-  BUCKETS: `${PG_META_API}/buckets`,
-  QUERY: `api/platform/storage/default/buckets`
+  DB_FUNCTIONS: `${PG_META_API}/query?key=database-functions`,
+  BUCKETS: `/api/platform/storage/default/buckets`,
+  QUERY: `${PG_META_API}/query`
 } as const;
 
 export class SupabaseApi {
