@@ -1,6 +1,6 @@
 # Change Log
 
-## v0.0.11 - 2025-01-27
+## v0.0.11 - 2025-07-22
 
 - fix: Make chat participant registration conditional for VS Code alternatives compatibility
 - fix: Remove hard dependency on github.copilot-chat extension
